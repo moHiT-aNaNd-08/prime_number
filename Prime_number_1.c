@@ -6,12 +6,12 @@ int main()
 
     /* Input upper limit to print prime */
     printf("Find prime numbers between 1 to : ");
-    scanf("%d", end);
+    scanf("%d", &end);
 
     printf("All prime numbers between 1 to %d are:\n", end);
 
     /* Find all Prime numbers between 1 to end */
-    for(i=2; i<end; i++)
+    for(i=2; i<=end; i++)
     {
         /* Assume that the current number is Prime */
         isPrime = 1; 
