@@ -17,7 +17,7 @@ int main()
         isPrime = 1; 
 
         /* Check if the current number i is prime or not */
-        for(j=2; j<=i/2; j++);
+        for(j=2; j<=i/2; j++)
         {
             /*
              * If i is divisible by any number other than 1 and self
