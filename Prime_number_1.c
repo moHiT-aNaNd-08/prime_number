@@ -23,7 +23,7 @@ int main()
              * If i is divisible by any number other than 1 and self
              * then it is not prime number
              */
-            if(i%j=0)
+            if(i%j==0)
             {
                 isPrime = 0;
                 break;
@@ -37,5 +37,5 @@ int main()
         }
     }
 
-    //return 0;
+    return 0;
 }
